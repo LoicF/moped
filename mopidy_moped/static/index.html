@@ -31,11 +31,14 @@
         <div ng-include="'radio/menu.tpl.html'"></div>
         <div class="panel">
           <a href="#/alarmclock"><div class="panel-heading alarmclock">Alarm Clock</div></a>
-        </div>
+          <a href="#/settings"><div class="panel-heading settings">Settings</div></a>
+        </div>        
         <div class="panel">
           <a href="#/alarmclock"><div class="panel-heading alarmclock">Alarm Clock</div></a>
-          <a href="#/settings"><div class="panel-heading settings">Settings</div></a>
         </div>
+        <div class="panel">
+          <a href="#/settings"><div class="panel-heading settings">Settings</div></a>
+        </div> 
       </aside>
 
       <div class="main pane-col" ng-class="{ outtaway: isSidebarVisibleForMobile }"ng-swipe-right="isSidebarVisibleForMobile = true" ng-swipe-left="isSidebarVisibleForMobile = false">
